@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodySection {
+    height: 100vh;
+    width: 100%;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyContent {
+    position: relative;
+    height: 94%;
+    width: 700px;
+    background-image: url('../Images/fond_large.jpeg');
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.divText {
+    font-size: 1.5rem;
+    padding: 3px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.divLogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formCard {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.input {
+    border-style: solid !important;
+    border-color: black !important;
+}
+
+.oubliDiv {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-weight: 450;
+    width: 100%;
+    color: rgb(0, 0, 0);
+
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.336);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+
+@media screen and (max-width:713px) {
+
+    .divLogo {
+        align-items: end;
+        height: 30%;
+    }
+
+    .bodyContent {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../Images/Fond.jpeg');
+        /* background-size: 80% !important; */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .formCard {
+        /* width: 75%; */
+        /* height: 20%; */
+        /* position: relative;
+        bottom: 35px; */
+    }
+
+    /* .footer {
+        position: absolute;
+        bottom: 0;
+        color: white;
+    } */
+}
